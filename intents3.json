@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello"
+      ],
+      "responses": [
+        "Hi, what's wrong?",
+        "Hi, how can I help you?",
+        "Hello, what's wrong?",
+        "Hello, how can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+        ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "sick",
+      "patterns": [
+        "I have a cold",
+        "I think I have covid",
+        "My body feels numb?"
+      ],
+      "responses": [
+        "Don't worry, I'll do some tests and prescribe you medication....(after a few tests), ok you have a normal cold, I'll give you some medicine, here you go"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "hello",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey"
+      ],
+      "responses": [
+        "Hi",
+        "Hello",
+        "Hey"
+      ]
+    },
+    {
+      "tag": "Weekend",
+      "patterns": [
+        "How was your weekend?",
+        "What did you do on the weekend?",
+        "How did your weekend go?",
+        "Did you do anything fun on the weekend?",
+        "Did you go anywhere during the weekend?"
+      ],
+      "responses": [
+        "I just spent time with my family"
+      ]
+    },
+    {
+      "tag": "Job",
+      "patterns": [
+        "How is work going?",
+        "How has work been lately?",
+        "Are you enjoying work?",
+        "How is work?"
+      ],
+      "responses": [
+        "It's been good",
+        "It's good",
+        "It's been fine"
+      ]
+    },
+    {
+      "tag": "shows",
+      "patterns": [
+        "Have you watched any good shows lately",
+        "Do you know any good shows to watch",
+        "What good shows have you watched lately",
+        "What shows have you been lately"
+      ],
+      "responses": [
+        "I don't really watch T.V."
+      ]
+    },
+    {
+      "tag": "Life question",
+      "patterns": [
+        "How have you been lately?",
+        "What's happening in your life?",
+        "How's it going?",
+        "How's life",
+        "Do anything fun lately"
+      ],
+      "responses": [
+        "Not much, just the usual"
+      ]
+    },
+    {
+      "tag": "Visit",
+      "patterns": [
+        "Have you been anywhere lately?",
+        "Have you gone anywhere",
+        "Did you travel anywhere",
+        "Did you visit any new places?"
+      ],
+      "responses": [
+        "I haven't really gone anywhere. I'm more of an indoor person."
+      ]
+    },
+    {
+      "tag": "Hobbies",
+      "patterns": [
+        "What do you do on your free time?",
+        "Have you started any new hobbies?",
+        "WHat do you do when you are free?",
+        "What hobbies do you have?",
+        "Any hobbies that you recommend for me to start?"
+      ],
+      "responses": [
+        "I recently started playing ping pong",
+        "I learning how to code, I'm thinking of creating a chat-bot."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "goodbye",
+        "bye",
+        "See you later",
+        "Nice to see you, bye"
+      ],
+      "responses": [
+        "Bye, see you later",
+        "Bye",
+        "Goodbye"
+      ]
+    }
+  ]
+}

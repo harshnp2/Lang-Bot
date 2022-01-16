@@ -1,0 +1,61 @@
+{
+  "intents": [
+    {
+      "tag": "hello",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey"
+      ],
+      "responses": [
+        "Hi, welcome to Lang-Bot's Restaurant, here is the menu:  {[Appetizers: Macaroni and cheese, Fries, Mozzarella sticks, Deviled eggs, Tomato Soup], [Main Course: Enchiladas, Tacos, Pizza, Pasta, Sandwich, Lasagne, Sushi, Cheese Burger], [Desserts: Tiramisu, Vanilla Cake, Chocolate Cake, Apple Pie, Brownie Sundae, Strawberry Cheesecake, Baklava]}",
+        "Hello, welcome to Lang-Bot's Restaurant, here is the menu:  {[Appetizers: Macaroni and cheese, Fries, Mozzarella sticks, Deviled eggs, Tomato Soup], [Main Course: Enchiladas, Tacos, Pizza, Pasta, Sandwich, Lasagne, Sushi, Cheese Burger], [Desserts: Tiramisu, Vanilla Cake, Chocolate Cake, Apple Pie, Brownie Sundae, Strawberry Cheesecake, Baklava]}"
+      ]
+    },
+    {
+      "tag": "Ready to order",
+      "patterns": [
+        "Waiter! I'm ready to order",
+        "I'm ready to order",
+        "Waiter can you come here, I'm ready to order"
+      ],
+      "responses": [
+        "What would you like as your appetizer, main course and dessert?"
+      ]
+    },
+    {
+      "tag": "Place Order",
+      "patterns": [
+        "I would like to order, this as my appetizer, this as my main course, and this as my dessert"
+      ],
+      "responses": [
+        "Okay, in 10 minutes all your food will be ready....(after 10 minutes), here is your food, call me when you are finished"
+      ]
+    },
+    {
+      "tag": "shows",
+      "patterns": [
+        "Waiter we are done",
+        "Can I have the bill please",
+        "We are finished our food",
+        "Waiter, we are done",
+        "We are done our food"
+      ],
+      "responses": [
+        "Okay, here is the bill"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "The food was great, bye?",
+        "See you later, hope to come back soon",
+        "Goodbye"
+      ],
+      "responses": [
+        ""
+      ]
+    }
+  ]
+}
